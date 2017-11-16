@@ -9,7 +9,7 @@ import com.jfinal.template.Engine;
 /**
  * Created by Yaoyuqi on 2017/11/15.
  */
-public class ExportExcelConfig extends JFinalConfig {
+public class HaihuiyuanConfig extends JFinalConfig {
     @Override
     public void configConstant(Constants me) {
         me.setDevMode(true);
@@ -18,7 +18,7 @@ public class ExportExcelConfig extends JFinalConfig {
 
     @Override
     public void configRoute(Routes me) {
-        me.add("/excel", ExportExcelController.class);
+        me.add("/haihuiyuan", HaihuiyuanController.class);
     }
 
     @Override

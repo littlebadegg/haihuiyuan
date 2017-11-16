@@ -14,7 +14,7 @@ import java.util.logging.Logger;
 /**
  * Created by Yaoyuqi on 2017/11/15.
  */
-public class ExportExcelController extends Controller {
+public class HaihuiyuanController extends Controller {
 
     private static Logger logger= Logger.getLogger("controller");
 

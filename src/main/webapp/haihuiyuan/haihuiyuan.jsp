@@ -106,7 +106,7 @@
     function getInfoList(){
         $("#listTable").empty();
         $("#listTable").append(" <tr><td>座次</td><td>房号</td><td>名字</td><td>微信号</td></tr>")
-        $.get("/excel/getHaihuiyuanInfo",{"site":$("#seartSite").val()},function(res){
+        $.get("/haihuiyuan/getHaihuiyuanInfo",{"site":$("#seartSite").val()},function(res){
             $.each(res,function(n,item){
                 $("#listTable").append(" <tr><td>"+item.site+"</td><td>"+item.room_num+"</td><td>"+item.name+"</td><td>"+item.weixin+"</td></tr>")
             })
@@ -126,7 +126,7 @@
             return;
         }
 
-        $.post("/excel/saveHaihuiyuan",{
+        $.post("/haihuiyuan/saveHaihuiyuan",{
             "site":$("#site").val(),
             "room_num":$("#room_num").val(),
             "name":$("#name").val(),
