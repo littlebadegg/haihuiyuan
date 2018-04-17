@@ -5,7 +5,7 @@
     </script>
 </header>
 <body>
-<h2>信息列表</h2>
+<h2>简单信息列表</h2>
 <form action="" method="post">
     <table>
         <tr width="100%">
@@ -37,6 +37,7 @@
                     <option value="24">24座</option>
                     <option value="25">25座</option>
                     <option value="26">26座</option>
+                    <option value="27">27座</option>
                 </select><span style="color: red;;font-size:10;">*必填</span>
             </td>
             <td width="50%"><input type="text" placeholder="房号" name="room_num" id="room_num" maxlength="4"style="width:150"><span style="color: red;font-size:10;">*必填</span></td>

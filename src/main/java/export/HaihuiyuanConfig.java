@@ -7,7 +7,7 @@ import com.jfinal.render.ViewType;
 import com.jfinal.template.Engine;
 
 /**
- * Created by Yaoyuqi on 2017/11/15.
+ * Created by Yaogeplus on 2017/11/15.
  */
 public class HaihuiyuanConfig extends JFinalConfig {
     @Override

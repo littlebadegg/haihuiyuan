@@ -6,19 +6,20 @@ import com.jfinal.json.FastJson;
 import com.jfinal.kit.HttpKit;
 import com.jfinal.plugin.activerecord.SqlPara;
 
+import javax.servlet.http.HttpServletRequest;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.logging.Logger;
 
 /**
- * Created by Yaoyuqi on 2017/11/15.
+ * Created by yaogeplus on 2017/11/15.
  */
 public class HaihuiyuanController extends Controller {
 
     private static Logger logger= Logger.getLogger("controller");
 
-    public void saveHaihuiyuan(){
+    public void saveHaihuiyuan(HttpServletRequest request){
         Map returnMap = new HashMap();
         Map map = getParaMap();
 
